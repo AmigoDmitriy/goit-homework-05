@@ -637,20 +637,29 @@ ul {
   min-height: 584px;
   border-radius: 4px;
   background-color: #fcfcfc;
+  padding: 24px;
 }
 .modal-btn {
   position: absolute;
   top: 24px;
   right: 24px;
   display: flex;
-  width: 24px;
-  height: 24px;
 }
 
 .modal-btn-icon {
   stroke: currentColor;
+  width: 24px;
+  height: 24px;
 }
+
 .modal-caption {
+  color: #2e2f42;
+  text-align: center;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.32px;
 }
 .form-backdrop {
 }
