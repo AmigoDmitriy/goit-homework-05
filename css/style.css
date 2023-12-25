@@ -581,7 +581,6 @@ ul {
   height: 40px;
   margin-top: 40px;
   margin-left: 24px;
-  cursor: pointer;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .telegram-icon {
@@ -592,4 +591,9 @@ ul {
   display: flex;
   gap: 16px;
   padding: 8px 24px;
+}
+.button-subscribe:hover,
+.button-subscribe:focus {
+  background: #404bbf;
+  cursor: pointer;
 }
