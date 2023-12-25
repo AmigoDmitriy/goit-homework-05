@@ -648,6 +648,7 @@ ul {
 }
 
 .modal-btn-icon {
+  stroke: currentColor;
 }
 .modal-caption {
 }
