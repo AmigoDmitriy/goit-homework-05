@@ -598,3 +598,7 @@ ul {
   background: #404bbf;
   cursor: pointer;
 }
+
+.backdrop {
+  background: var(--NAVY-BLUE-modal, rgba(46, 47, 66, 0.4));
+}
