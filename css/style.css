@@ -534,6 +534,17 @@ ul {
   fill: #f4f4fd;
 }
 
+.form-mail {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: rgb(255, 255, 255);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  margin-left: 80px;
+}
 .input-border {
   box-shadow: rgba(0, 0, 0, 0.15) 0px 4px 4px 0px;
   color: var(--WHITE, #fff);
