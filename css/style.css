@@ -631,3 +631,25 @@ ul {
   padding: 20px 32px;
   background-color: #ffffff;
 }
+
+.modal {
+  width: 408px;
+  min-height: 584px;
+  border-radius: 4px;
+  background-color: #fcfcfc;
+}
+.modal-btn {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  display: flex;
+  width: 24px;
+  height: 24px;
+}
+
+.modal-btn-icon {
+}
+.modal-caption {
+}
+.form-backdrop {
+}
