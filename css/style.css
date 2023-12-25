@@ -547,25 +547,30 @@ ul {
 }
 .input-border {
   box-shadow: rgba(0, 0, 0, 0.15) 0px 4px 4px 0px;
-  color: var(--WHITE, #fff);
+  color: #fff;
   font-family: "Roboto";
   font-size: 12px;
-  font-style: normal;
   font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0.48px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   padding-top: 8px;
   padding-left: 16px;
   padding-bottom: 8px;
   width: 264px;
   height: 40px;
   border-radius: 4px;
-  border: 1px solid var(--WHITE, #fff);
-  background: var(--NAVY-BLUE, #2e2f42);
+  border: 1px solid #fff;
+  background-color: #2e2f42;
 }
 .button-subscribe {
   text-align: center;
-  margin-left: 24px;
-  background-color: var(--IRIS, #4d5ae5);
+  background-color: #4d5ae5;
   border-radius: 4px;
+  color: #fff;
+  text-align: center;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
