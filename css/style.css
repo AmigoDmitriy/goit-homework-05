@@ -623,6 +623,7 @@ ul {
   width: 408px;
   min-height: 584px;
 
+  padding: 24px;
   padding-top: 72px;
 
   border-radius: 4px;
@@ -635,6 +636,8 @@ ul {
   right: 24px;
   border-radius: 50%;
 
+  margin-left: auto;
+
   display: flex;
   align-items: center;
   justify-content: center;
@@ -644,23 +647,16 @@ ul {
 }
 .modal-btn-icon {
   stroke: currentColor;
-  fill: currentColor;
 }
 .modal-caption {
+  width: 360px;
+  margin-bottom: 16px;
+
   color: #2e2f42;
   text-align: center;
 
   font-size: 16px;
-
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.32px;
 }
-/* .icon {
-  display: inline-block;
-  width: 1em;
-  height: 1em;
-  stroke-width: 0;
-  stroke: currentColor;
-  fill: currentColor;
-} */
