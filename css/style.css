@@ -624,6 +624,18 @@ ul {
 }
 
 .modal {
+  position: relative;
+
+  width: 408px;
+  min-height: 584px;
+
+  padding-top: 72px;
+
+  border-radius: 4px;
+  background-color: #fcfcfc;
+}
+
+.modal-btn {
   position: absolute;
   top: 24px;
   right: 24px;
@@ -635,10 +647,17 @@ ul {
   width: 24px;
   height: 24px;
 }
-
-.modal-btn {
-}
 .modal-btn-icon {
+  stroke: currentColor;
 }
 .modal-caption {
+  color: #2e2f42;
+  text-align: center;
+
+  font-family: "Roboto";
+  font-size: 16px;
+
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
 }
