@@ -609,6 +609,8 @@ ul {
   width: 100%;
   height: 100%;
   background-color: rgba(46, 47, 66, 0.4);
+
+  transition: opacity 300ms ease-in, visibility 300ms ease-in;
 }
 
 .backdrop .is-hidden {
