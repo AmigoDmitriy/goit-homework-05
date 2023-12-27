@@ -611,16 +611,34 @@ ul {
   background-color: rgba(46, 47, 66, 0.4);
 
   transition: opacity 300ms ease-in, visibility 300ms ease-in;
-}
 
-.backdrop .is-open {
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
 }
 
-.backdrop p {
-  width: fit-content;
-  padding: 72px 24px;
-  background-color: #ffffff;
+.backdrop .is-open {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: initial;
+}
+
+.modal {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 24px;
+  height: 24px;
+}
+
+.modal-btn {
+}
+.modal-btn-icon {
+}
+.modal-caption {
 }
