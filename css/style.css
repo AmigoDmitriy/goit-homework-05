@@ -660,3 +660,12 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.32px;
 }
+
+button [type="submit"] {
+  background-color: grey;
+}
+
+.modal-form {
+  display: flex;
+  flex-direction: column;
+}
