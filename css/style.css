@@ -644,6 +644,7 @@ ul {
 }
 .modal-btn-icon {
   stroke: currentColor;
+  fill: currentColor;
 }
 .modal-caption {
   color: #2e2f42;
@@ -655,3 +656,11 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.32px;
 }
+/* .icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+} */
