@@ -588,11 +588,7 @@ ul {
   fill: currentColor;
   color: #ffffff;
 }
-.button-list {
-  display: flex;
-  gap: 16px;
-  padding: 8px 24px;
-}
+
 .button-subscribe:hover,
 .button-subscribe:focus {
   background: #404bbf;
@@ -617,7 +613,7 @@ ul {
   pointer-events: none;
 }
 
-.backdrop.is-open {
+.backdrop .is-open {
   opacity: 1;
   visibility: visible;
   pointer-events: initial;
@@ -658,6 +654,4 @@ ul {
   letter-spacing: 0.02em;
   width: 360px;
   margin-bottom: 16px;
-}
-.form-backdrop {
 }
