@@ -636,6 +636,8 @@ ul {
   right: 24px;
   border-radius: 50%;
 
+  border: none;
+
   background-color: #e7e9fc;
 
   margin-left: auto;
