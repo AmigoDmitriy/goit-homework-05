@@ -766,6 +766,11 @@ ul {
   text-decoration-line: underline;
 }
 
+.icon-lisense {
+  position: absolute;
+  left: 24px;
+}
+
 .form-btn {
   border-radius: 4px;
   background-color: #4d5ae5;
