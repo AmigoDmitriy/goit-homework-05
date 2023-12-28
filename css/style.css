@@ -689,6 +689,11 @@ ul {
   flex-direction: column;
 }
 
+.form-field {
+  position: relative;
+  margin-bottom: 8px;
+}
+
 .form-label {
   display: block;
   margin-bottom: 4px;
@@ -697,10 +702,6 @@ ul {
   font-weight: 400;
   line-height: 1.16;
   letter-spacing: 0.04em;
-}
-
-.form-field {
-  position: relative;
 }
 
 .item-input {
