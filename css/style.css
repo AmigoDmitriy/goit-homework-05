@@ -694,6 +694,13 @@ button [type="submit"] {
   border: 1px solid #4d5ae5;
 }
 
+.item-name-style {
+  color: rgba(46, 47, 66, 0.4);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.16;
+  letter-spacing: 0.04em;
+}
 .item-textarea {
   display: block;
   align-self: flex-end;
