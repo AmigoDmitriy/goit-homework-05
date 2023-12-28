@@ -705,6 +705,15 @@ button [type="submit"] {
   letter-spacing: 0.04em;
 }
 
+.underlining-item {
+  color: #4d5ae5;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.33;
+  letter-spacing: 0.04;
+  text-decoration-line: underline;
+}
+
 .form-btn {
   border-radius: 4px;
   background-color: #4d5ae5;
