@@ -497,7 +497,7 @@
           </div>
           <div class="form-field">
             <label for="email" class="form-label">Email</label>
-            <div class="form-field">
+            <div class="conainer-for-svg">
               <input
                 class="item-input"
                 id="email"
@@ -510,32 +510,33 @@
           </div>
           <div class="container-comment">
             <label for="user-comment" class="form-label">Comment</label>
-              <textarea
-                id="user-comment"
-                class="item-textarea"
-                name="user-comment"
-                rows="7"
-                placeholder="Text input"
-              ></textarea>
-            </div>
-            <div class="checkbox-container">
-              <input
-                id="user-privacy"
-                class="checkbox-input"
-                type="checkbox"
-                name="user-privacy"
-                value="true"
-              />
-            <label for="user-privacy" class="label-checkbox">I accept the terms and conditions of the <a class="link-privacy" href="">Privacy Policy</a>
-              <span class="span-item"> <svg class="icon-lisense" width="10" height="8">
-                <use href="./images/icons.svg#icon-click"></use>
-              </svg>
-            </span>
-          </label>
-              </div>
-            </div>
-            <button class="form-btn" type="submit">Send</button>
+            <textarea
+              id="user-comment"
+              class="item-textarea"
+              name="user-comment"
+              rows="7"
+              placeholder="Text input"
+            ></textarea>
           </div>
+          <div class="checkbox-container">
+            <input
+              id="user-privacy"
+              class="checkbox-input"
+              type="checkbox"
+              name="user-privacy"
+              value="true"
+            />
+            <label for="user-privacy" class="label-checkbox"
+              >I accept the terms and conditions of the
+              <a class="link-privacy" href="">Privacy Policy</a>
+              <span class="span-item">
+                <svg class="icon-lisense" width="10" height="8">
+                  <use href="./images/icons.svg#icon-click"></use>
+                </svg>
+              </span>
+            </label>
+          </div>
+          <button class="form-btn" type="submit">Send</button>
         </form>
       </div>
     </div>
