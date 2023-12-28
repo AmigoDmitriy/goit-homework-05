@@ -620,7 +620,7 @@ ul {
 .modal {
   position: relative;
 
-  width: 408px;
+  min-width: 408px;
   min-height: 584px;
 
   padding: 24px;
@@ -694,8 +694,20 @@ button [type="submit"] {
 }
 
 .checkbox-input {
+  margin-right: 8px;
 }
 
+.policy {
+  color: #8e8f99;
+
+  /* Small Text */
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 14px; /* 116.667% */
+  letter-spacing: 0.48px;
+}
 .form-btn {
   border-radius: 4px;
   background-color: #4d5ae5;
