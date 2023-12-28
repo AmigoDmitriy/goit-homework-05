@@ -204,7 +204,7 @@ ul {
 
 .button-order:hover,
 .button-order:focus {
-  background: #404bbf;
+  background-color: #404bbf;
   cursor: pointer;
 }
 
@@ -636,14 +636,16 @@ ul {
   right: 24px;
   border-radius: 50%;
 
+  background-color: #e7e9fc;
+
   margin-left: auto;
 
   display: flex;
   align-items: center;
   justify-content: center;
 
-  width: 24px;
-  height: 24px;
+  width: 19px;
+  height: 19px;
 }
 .modal-btn-icon {
   stroke: currentColor;
@@ -659,10 +661,6 @@ ul {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.32px;
-}
-
-button [type="submit"] {
-  background-color: grey;
 }
 
 /* Form section */
@@ -710,6 +708,11 @@ button [type="submit"] {
   margin-bottom: 16px;
 }
 
+.label-size {
+  display: block;
+  margin-bottom: 4px;
+}
+
 .checkbox-input {
   margin-right: 8px;
 }
@@ -735,7 +738,7 @@ button [type="submit"] {
   border-radius: 4px;
   background-color: #4d5ae5;
   border: none;
-  width: 169px;
+  min-width: 169px;
   height: 56px;
 
   margin: 24px auto;
@@ -747,4 +750,10 @@ button [type="submit"] {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.form-btn:hover .form-btn:focus {
+  background-color: #404bbf;
+  cursor: pointer;
 }
