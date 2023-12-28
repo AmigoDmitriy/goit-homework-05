@@ -588,6 +588,7 @@ ul {
 }
 .telegram-icon {
   fill: #ffffff;
+  margin-left: 16px;
 }
 
 .button-subscribe:hover,
