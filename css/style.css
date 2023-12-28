@@ -697,16 +697,12 @@ button [type="submit"] {
   margin-right: 8px;
 }
 
-.policy {
+.policy-item {
   color: #8e8f99;
-
-  /* Small Text */
-  font-family: Roboto;
   font-size: 12px;
-  font-style: normal;
   font-weight: 400;
-  line-height: 14px; /* 116.667% */
-  letter-spacing: 0.48px;
+  line-height: 1.16;
+  letter-spacing: 0.04em;
 }
 .form-btn {
   border-radius: 4px;
