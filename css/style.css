@@ -786,6 +786,7 @@ ul {
   color: #4d5ae5;
 }
 .form-btn {
+  display: block;
   border-radius: 4px;
   background-color: #4d5ae5;
   border: none;
@@ -795,7 +796,7 @@ ul {
   margin: 24px auto;
 
   padding: 16px 32px;
-
+  font-family: "Roboto", sans-serif;
   color: #fff;
   font-size: 16px;
   font-weight: 500;
