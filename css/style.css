@@ -665,6 +665,8 @@ button [type="submit"] {
   background-color: grey;
 }
 
+/* Form section */
+
 .modal-form {
   display: flex;
   flex-direction: column;
@@ -697,7 +699,7 @@ button [type="submit"] {
   margin-right: 8px;
 }
 
-.policy-item {
+.checkbox-container {
   color: #8e8f99;
   font-size: 12px;
   font-weight: 400;
