@@ -490,7 +490,7 @@
             <label for="phone" class="form-label">Phone</label>
             <div class="conainer-for-svg">
               <input class="item-input" id="phone" type="tel" name="phone" />
-              <svg class="form-icon" width="18" height="18">
+              <svg class="form-icon" width="18" height="24">
                 <use href="./images/icons.svg#icon-phone"></use>
               </svg>
             </div>
@@ -503,36 +503,38 @@
                 id="email"
                 type="email"
                 name="email"
-              /><svg class="form-icon" width="18" height="18">
+              /><svg class="form-icon" width="18" height="24">
                 <use href="./images/icons.svg#icon-email"></use>
               </svg>
             </div>
           </div>
-          <label for="comment" class="form-label">Comment</label>
-          <div class="field">
-            <textarea
-              id="comment"
-              class="item-textarea"
-              name="comment"
-              rows="7"
-              placeholder="Text input"
-            ></textarea>
+          <div>
+            <label for="comment" class="form-label">Comment</label>
+            <div class="field">
+              <textarea
+                id="comment"
+                class="item-textarea"
+                name="comment"
+                rows="7"
+                placeholder="Text input"
+              ></textarea>
+            </div>
+            <label for="license"></label>
+            <div class="checkbox-container">
+              <input
+                id="license"
+                class="checkbox-input"
+                type="checkbox"
+                name="license"
+                value="Privacy Policy"
+              />I accept the terms and conditions of the
+              <span class="underlining-item">Privacy Policy</span>
+              <svg class="icon-lisense" width="16" height="16">
+                <use href="./images/icons.svg#icon-click"></use>
+              </svg>
+            </div>
+            <button class="form-btn" type="submit">Send</button>
           </div>
-          <label for="license"></label>
-          <div class="checkbox-container">
-            <input
-              id="license"
-              class="checkbox-input"
-              type="checkbox"
-              name="license"
-              value="Privacy Policy"
-            />I accept the terms and conditions of the
-            <span class="underlining-item">Privacy Policy</span>
-            <svg class="icon-lisense" width="16" height="16">
-              <use href="./images/icons.svg#icon-click"></use>
-            </svg>
-          </div>
-          <button class="form-btn" type="submit">Send</button>
         </form>
       </div>
     </div>
