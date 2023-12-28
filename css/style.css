@@ -614,7 +614,8 @@ ul {
   height: 100%;
   background-color: rgba(46, 47, 66, 0.4);
 
-  transition: opacity 300ms ease-in, visibility 300ms ease-in;
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .backdrop .is-open {
   opacity: 1;
@@ -622,7 +623,9 @@ ul {
   pointer-events: initial;
 }
 .modal {
-  position: relative;
+  position: absolute;
+  top: 50%;
+  left: 50%;
 
   min-width: 408px;
   min-height: 584px;
@@ -632,6 +635,7 @@ ul {
 
   border-radius: 4px;
   background-color: #fcfcfc;
+  transform: translate(-50%, -50%) scale(1);
 }
 
 .modal-btn {
