@@ -472,24 +472,35 @@
           Leave your contacts and we will call you back
         </p>
         <form class="modal-form" name="modal" novalidate autocomplete="off">
-          <label
-            >Name<input class="item-input" type="text" name="user_name"
-          /></label>
-          <label
-            >Phone <input class="item-input" type="tel" name="phone"
-          /></label>
-          <label
-            >Email<input class="item-input" type="email" name="email"
-          /></label>
-          <label
-            >Comment<textarea
-              class="item-textarea"
-              name="comment"
-              id=""
-              rows="7"
-              placeholder="Text input"
-            ></textarea>
-          </label>
+          <div class="field">
+            <label for="user_name">Name</label>
+            <input
+              class="item-input"
+              id="user_name"
+              type="text"
+              name="user_name"
+            />
+          </div>
+          <div class="field">
+            <label
+              >Phone <input class="item-input" type="tel" name="phone" />
+            </label>
+          </div>
+          <div class="field">
+            <label
+              >Email<input class="item-input" type="email" name="email" />
+            </label>
+          </div>
+          <div class="field">
+            <label
+              >Comment<textarea
+                class="item-textarea"
+                name="comment"
+                rows="7"
+                placeholder="Text input"
+              ></textarea>
+            </label>
+          </div>
           <button class="form-btn" type="submit">Send</button>
         </form>
       </div>
