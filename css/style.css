@@ -684,11 +684,6 @@ ul {
 
 /* Form section */
 
-.modal-form {
-  display: flex;
-  flex-direction: column;
-}
-
 .form-field {
   position: relative;
   margin-bottom: 8px;
@@ -702,6 +697,8 @@ ul {
   font-weight: 400;
   line-height: 1.17;
   letter-spacing: 0.04em;
+}
+.conainer-for-svg {
 }
 
 .item-input {
