@@ -555,9 +555,6 @@ ul {
   gap: 24px;
 }
 
-.label-email {
-}
-
 .input-border {
   width: 264px;
   height: 40px;
@@ -727,9 +724,6 @@ ul {
 
 .item-input:focus + .form-icon {
   fill: #4d5ae5;
-}
-
-.container-comment {
 }
 
 .item-textarea {
