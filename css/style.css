@@ -693,6 +693,9 @@ button [type="submit"] {
   margin-bottom: 16px;
 }
 
+.checkbox-input {
+}
+
 .form-btn {
   border-radius: 4px;
   background-color: #4d5ae5;
