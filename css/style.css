@@ -670,15 +670,20 @@ button [type="submit"] {
   flex-direction: column;
 }
 
+.item-input {
+  display: block;
+  align-self: flex-end;
+  width: 100%;
+}
+
 .form-btn {
-  color: ;
   border-radius: 4px;
   background-color: #4d5ae5;
   border: none;
   width: 169px;
   height: 56px;
 
-  margin: auto;
+  margin: 24px;
 
   padding: 16px 32px;
 
