@@ -535,6 +535,12 @@ ul {
   fill: #f4f4fd;
 }
 
+/* Footer form */
+
+.form-text {
+  margin-bottom: 16px;
+}
+
 .form-mail {
   display: flex;
   justify-content: flex-start;
