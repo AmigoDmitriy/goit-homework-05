@@ -537,6 +537,10 @@ ul {
 
 /* Footer form */
 
+.footer-form {
+  margin-left: 80px;
+}
+
 .form-text {
   margin-bottom: 16px;
   color: #ffffff;
@@ -544,57 +548,46 @@ ul {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  margin-left: 80px;
 }
 
 .form-mail {
   display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  color: rgb(255, 255, 255);
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  margin-left: 80px;
+  gap: 24px;
 }
+
+.label-email {
+}
+
 .input-border {
-  box-shadow: rgba(0, 0, 0, 0.15) 0px 4px 4px 0px;
-  color: #fff;
-  font-family: "Roboto";
-  font-size: 12px;
-  font-weight: 400;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  padding-top: 8px;
-  padding-left: 16px;
-  padding-bottom: 8px;
   width: 264px;
   height: 40px;
+  border: 1px solid #ffffff;
+  background-color: transparent;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  padding-left: 16px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 4px 4px 0px;
   border-radius: 4px;
-  border: 1px solid #fff;
-  background-color: #2e2f42;
-  display: flex;
-  align-self: flex-end;
-  margin-top: 16px;
+  color: #ffffff;
 }
 .button-subscribe {
-  background-color: #4d5ae5;
+  min-width: 165px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-family: "Roboto", sans-serif;
-  font-weight: 500;
   font-size: 16px;
+  font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
+  cursor: pointer;
+  background-color: #4d5ae5;
   border: none;
-  display: block;
-  min-width: 165px;
-  height: 40px;
-  margin-top: 40px;
-  margin-left: 24px;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  border-radius: 4px;
 }
 .telegram-icon {
   fill: #ffffff;
