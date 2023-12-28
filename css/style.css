@@ -694,21 +694,22 @@ ul {
   border: 1px solid rgba(46, 47, 66, 0.4);
   padding-left: 38px;
   outline: none;
-  transition: border-color 300ms ease-in;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
+.item-input:focus {
+  border-color: #4d5ae5;
+}
 .form-icon {
   position: absolute;
   top: 11px;
   left: 11px;
-}
-.form-icon:focus {
-  color: #4d5ae5;
+  fill: currentColor;
 }
 
-.item-input:focus {
-  border-color: #4d5ae5;
+.item-input:focus + .form-icon {
+  fill: #4d5ae5;
 }
+
 .item-name-style {
   color: rgba(46, 47, 66, 0.4);
   font-size: 12px;
@@ -732,6 +733,13 @@ ul {
 
   padding-top: 8px;
   padding-left: 16px;
+
+  outline: none;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.item-textarea:focus {
+  border-color: #4d5ae5;
 }
 
 .checkbox-input {
