@@ -746,6 +746,7 @@ ul {
 
 .checkbox-input {
   margin-right: 8px;
+  visibility: hidden;
 }
 
 .checkbox-container {
