@@ -795,9 +795,9 @@ ul {
 }
 
 .checkbox-input:checked + .span-item {
+  background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
-  background-color: #404bbf;
 }
 
 .link-privacy {
