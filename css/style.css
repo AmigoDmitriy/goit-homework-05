@@ -816,12 +816,12 @@ ul {
   opacity: 0;
 }
 
-.form-agrement-link {
-  color: #4d5ae5;
-}
-
 .checkbox:focus + .form-agrement > .form-agrement-checkbox {
   border-color: #4d5ae5;
+}
+
+.form-agrement-link {
+  color: #4d5ae5;
 }
 
 .form-btn {
