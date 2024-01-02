@@ -807,8 +807,7 @@ ul {
 }
 
 .checkbox-input:checked + .label-checkbox > .span-item {
-  background-color: #404bbf;
-  border-color: #4d5ae5;
+  opacity: 1;
 }
 
 .link-privacy {
