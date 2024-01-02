@@ -811,9 +811,6 @@ ul {
   fill: #f4f4fd;
 }
 
-.checkbox:checked + .form-agrement-checkbox > .form-agrement-icon {
-  opacity: 1;
-}
 .form-agrement-icon {
   opacity: 0;
 }
