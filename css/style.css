@@ -813,7 +813,7 @@ ul {
 
 .link-privacy {
   color: #4d5ae5;
-  text-decoration: underline;
+  text-decoration-line: underline;
 }
 
 .form-btn {
