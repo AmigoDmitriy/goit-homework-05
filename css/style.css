@@ -798,6 +798,10 @@ ul {
   margin-right: 8px;
 }
 
+.icon-lisense {
+  opacity: 0;
+}
+
 .checkbox-input:checked + .label-checkbox > .span-item {
   background-color: #404bbf;
   border: none;
