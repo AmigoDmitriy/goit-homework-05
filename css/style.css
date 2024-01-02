@@ -807,6 +807,10 @@ ul {
   fill: #f4f4fd;
 }
 
+.form-agrement-icon {
+  opacity: 0;
+}
+
 .form-agrement-link {
   color: #4d5ae5;
 }
