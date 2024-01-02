@@ -793,6 +793,10 @@ ul {
   fill: transparent;
 }
 
+.icon-licence {
+  margin-right: 8px;
+}
+
 .checkbox-input:checked + .label-checkbox > .span-item {
   background-color: #404bbf;
   border: none;
