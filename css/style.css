@@ -807,7 +807,6 @@ ul {
 
 .checkbox:checked + .form-agrement-checkbox > .form-agrement-icon {
   background-color: #404bbf;
-  border-color: #4d5ae5;
   border: none;
   fill: #f4f4fd;
 }
