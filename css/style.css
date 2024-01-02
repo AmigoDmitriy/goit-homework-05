@@ -777,10 +777,10 @@ ul {
 }
 
 .label-checkbox {
-  color: #8e8f99;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
+  color: #8e8f99;
 }
 
 .span-item {
@@ -801,11 +801,13 @@ ul {
 .icon-lisense {
   opacity: 0;
 }
+.checkbox-input:checked + .label-checkbox {
+  background-color: #404bbf;
+  border-color: #4d5ae5;
+}
 
 .checkbox-input:checked + .label-checkbox > .span-item {
   background-color: #404bbf;
-  border: none;
-  fill: #f4f4fd;
   border-color: #4d5ae5;
 }
 
