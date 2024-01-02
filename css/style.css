@@ -786,7 +786,7 @@ ul {
   margin-right: 8px;
 }
 
-.checkbox-input:checked + .span-item {
+.checkbox:checked + .form-agrement-checkbox {
   background-color: #404bbf;
   border-color: #4d5ae5;
 }
@@ -795,7 +795,7 @@ ul {
   opacity: 0;
 }
 
-.checkbox-input:checked + .span-item > .icon-lisense {
+.checkbox-input:checked + .form-agrement-checkbox > .form-agrement-icon {
   opacity: 1;
 }
 
