@@ -801,17 +801,10 @@ ul {
   margin-right: 8px;
 }
 
-.checkbox:checked + .form-agrement-checkbox {
+.checkbox-input:checked + .label-checkbox > .span-item {
   background-color: #404bbf;
-  border-color: #4d5ae5;
-}
-
-.form-agrement-icon {
-  opacity: 0;
-}
-
-.checkbox-input:checked + .form-agrement-checkbox > .form-agrement-icon {
-  opacity: 1;
+  border: none;
+  fill: #f4f4fd;
 }
 
 .form-agrement-link {
