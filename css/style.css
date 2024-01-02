@@ -815,6 +815,13 @@ ul {
   opacity: 0;
 }
 
+.checkbox:checked
+  + .form-agrement
+  > .form-agrement-checkbox
+  > .form-agrement-icon {
+  opacity: 1;
+}
+
 .checkbox:focus + .form-agrement > .form-agrement-checkbox {
   border-color: #4d5ae5;
 }
