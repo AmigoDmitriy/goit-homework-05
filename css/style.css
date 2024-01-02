@@ -801,12 +801,12 @@ ul {
 .icon-lisense {
   opacity: 0;
 }
-.checkbox-input:checked + .label-checkbox {
+.checkbox-input:checked + .span-item {
   background-color: #404bbf;
   border-color: #4d5ae5;
 }
 
-.checkbox-input:checked + .label-checkbox > .span-item {
+.checkbox-input:checked + .span-item > .icon-lisense {
   opacity: 1;
 }
 
