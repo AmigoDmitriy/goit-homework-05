@@ -618,7 +618,7 @@ ul {
   pointer-events: none;
 }
 
-.backdrop .is-open {
+.backdrop.is-open {
   opacity: 1;
   visibility: visible;
   pointer-events: initial;
