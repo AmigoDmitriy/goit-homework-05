@@ -802,15 +802,18 @@ ul {
   background-color: #404bbf;
   border-color: #4d5ae5;
 }
+
 .icon-lisense {
   opacity: 0;
 }
+
 .checkbox-input:checked + .span-item > .icon-lisense {
   opacity: 1;
 }
 
 .link-privacy {
   color: #4d5ae5;
+  text-decoration: underline;
 }
 
 .form-btn {
