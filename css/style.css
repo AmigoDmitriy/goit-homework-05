@@ -833,6 +833,7 @@ ul {
   margin: 0 auto;
   padding: 16px 32px;
   font-family: "Roboto", sans-serif;
+  cursor: pointer;
   color: #fff;
   font-size: 16px;
   font-weight: 500;
@@ -843,5 +844,4 @@ ul {
 
 .form-btn:hover .form-btn:focus {
   background-color: #404bbf;
-  cursor: pointer;
 }
